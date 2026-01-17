@@ -35,14 +35,14 @@ After successfully creating your bot, the BotFather will provide you with an API
 
 ### Installation
 
-Please, certify to have all the [Requirements](#requirements) installed. Then, clone this repository.
+Please, certify to have all the [requirements](#requirements) installed. Then, clone this repository.
 
 ### Running
 
 The easier way to run this bot is using [docker compose plug-in](https://docs.docker.com/compose/). But first, create a file `telegram-bot/.env` adding your API key to the variable `TELEGRAM_API_TOKEN`. The file content should be similar to this:
 
 ```bash
-TELEGRAM_API_TOKEN="insert the api token here"	#	add your telegram API token inside the double quotes
+TELEGRAM_API_TOKEN="insert the api token here"	# add your telegram API token inside the double quotes
 ```
 
 Now, enter the root path where you cloned this repository and bring your stack up with:
