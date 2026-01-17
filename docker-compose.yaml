@@ -1,0 +1,15 @@
+services:
+
+  telegram-bot:
+    build:
+      dockerfile: telegram-bot/Dockerfile
+    env_file: telegram-bot/.env
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:0.13.5
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ${PWD}/ollama/.ollama:/root/.ollama

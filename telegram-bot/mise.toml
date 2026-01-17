@@ -1,0 +1,15 @@
+# "mise-en-place" is a development environment setup tool
+# https://mise.jdx.dev/
+
+[tools]
+python = "3.14"
+
+[settings]
+python.uv_venv_create_args = ["--seed"]
+
+[env]
+_.file = ".env"
+_.python.venv = { path = ".venv", create = true }
+
+[tasks.pip-install]
+run = "pip install --requirement=requirements.txt"

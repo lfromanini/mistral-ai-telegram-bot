@@ -1,0 +1,6 @@
+# constraints
+--constraint=constraints.txt
+
+# requirements
+python-telegram-bot
+requests

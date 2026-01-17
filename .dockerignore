@@ -1,0 +1,11 @@
+# docker
+ollama/
+*/Dockerfile
+
+# environment config
+.editorconfig
+*/mise.toml
+
+# python stuff
+*/__pycache__/
+*/.venv/

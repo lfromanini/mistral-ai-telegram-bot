@@ -1,0 +1,5 @@
+# "mise-en-place" is a development environment setup tool
+# https://mise.jdx.dev/
+
+[tasks.pull-mistral]
+run = "curl --request POST http://localhost:11434/api/pull --data '{\"name\": \"mistral\"}'"
